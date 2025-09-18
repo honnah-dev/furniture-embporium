@@ -1,0 +1,83 @@
+body {
+  background-color: #f4efe9;
+  margin: 40px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#all-caps-text {
+  text-transform: uppercase;
+  letter-spacing: 1em;
+}
+.product-card {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+  border-style: solid white;
+  border-radius: 20px;
+  margin: 30px;
+}
+img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;          /* fill the box, crop if needed */
+  object-position: 10% 70%;   /* horizontal vertical */
+}
+
+
+.product-gallery {
+  display: flex;          /* put items in a row */
+  gap: 16px;              /* space between images */
+  justify-content: center;/* center images in container */
+  flex-wrap: wrap;        /* allow wrapping on smaller screens */
+}
+
+.product-gallery img {
+  width: 200px;           /* fixed width */
+  height: 150px;          /* fixed height */
+  object-fit: cover;      /* crop to fit */
+  border-radius: 6px;     /* optional rounded corners */
+}
+
+
+.price_style {
+    font-size: 30px;
+    font-variant: small-caps;
+}
+.my-buttons {
+    background-color: #FBD6C4;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+button:hover {
+    filter: invert(100);
+
+}
+
+.card-container {
+  display: flex;          /* line up cards horizontally */
+  gap: 20px;              /* space between them */
+  justify-content: center;/* center them on the page */
+  margin-top: 20px;
+}
+
+.product-card {
+  width: 250px;           /* control card size */
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
